@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package github.com.acucenagois.imersao-fullstack-fullcycle;
+package github.com.acucenagois;
 
 option go_package = "protofiles;pb";
 
