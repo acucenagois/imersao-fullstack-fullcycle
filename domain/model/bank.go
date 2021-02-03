@@ -12,7 +12,7 @@ func init() {
 }
 
 type Bank struct {
-	base `valid:"required"`
+	Base `valid:"required"`
 	Code string `json:"code" gorm:"type:varchar(20)" valid:"notnull"`
 	Name string `json:"name" gorm:"type:varchar(255)" valid:"notnull"`
 	Accounts []*Account `gorm:"ForeignKey:BankID" valid:"-"`
